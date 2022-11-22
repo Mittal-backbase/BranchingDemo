@@ -7,7 +7,7 @@ on:
 jobs:
   draft-new-release:
     name: "Draft a new release"
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     # Only run for issues with release title and release as issue name.
     # Example Release version uat/9 1.0.2
